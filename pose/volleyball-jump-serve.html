@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from setpose.com/pose/volleyball-jump-serve by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Oct 2022 11:27:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79199349-14"></script>
+<script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-79199349-14');
+            </script>
+<title>Free Interactive 3D Model for Drawing Figures, Dynamic Poses, and More - Online Drawing Mannequin - SetPose.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="dns-prefetch" href="https://www.google-analytics.com/">
+<link rel="dns-prefetch" href="https://www.google.com/">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+<link rel="apple-touch-icon" sizes="180x180" href="../imgs/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../imgs/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../imgs/favicon/favicon-16x16.png">
+<link rel="manifest" href="../manifest.json">
+<link rel="mask-icon" href="../imgs/favicon/safari-pinned-tab.html" color="#5bbad5">
+<meta name="theme-color" content="#f7f7f7" />
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://setpose.com/pose/volleyball-jump-serve">
+<meta property="og:title" content="Free Interactive 3D Model for Drawing Figures, Dynamic Poses, and More - Online Drawing Mannequin - SetPose.com">
+<meta property="og:description" content="As an artist, you probably have drawn the human body several times and realized how difficult it is to do it all from memory. This is where an adjustable online drawing model comes in handy. These adjustable models are also often called drawing mannequins">
+<meta property="og:image" content="https://setpose.com/imgs/mannequin.png">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://setpose.com/pose/volleyball-jump-serve">
+<meta property="twitter:title" content="Free Interactive 3D Model for Drawing Figures, Dynamic Poses, and More - Online Drawing Mannequin - SetPose.com">
+<meta property="twitter:description" content="As an artist, you probably have drawn the human body several times and realized how difficult it is to do it all from memory. This is where an adjustable online drawing model comes in handy. These adjustable models are also often called drawing mannequins">
+<meta property="twitter:image" content="https://setpose.com/imgs/mannequin.png">
+<meta name="twitter:site" content="@setpose" />
+<meta name="twitter:creator" content="@augustvandeven" />
+<meta name="keywords" content="setpose, set pose, fakeclients, online drawing model, drawing figure, mannequin" />
+<meta name="author" content="August van de Ven">
+<meta name="robots" content="index, follow" />
+<meta name="revisit-after" content="3 month" />
+<meta property="og:image" content="https://setpose.com/imgs/mannequin.png">
+
+<link rel="stylesheet" type="text/css" href="../style/stylee5bf.css?v=12">
+<script src="../js/libs/three.min.js"></script>
+<script src="../js/libs/OBJLoader.js"></script>
+<script src="../js/libs/OBJExporter.js"></script>
+<script src="../js/libs/OrbitControls.min.js"></script>
+<script src="../js/mannequinae24.js?v=14"></script>
+<script type="application/ld+json">
+                {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "url": "https://setpose.com",
+                    "logo": "https://setpose.com/imgs/setposelogo.svg"
+                }
+            </script>
+<script>
+                var _paq = window._paq = window._paq || [];
+                _paq.push(['trackPageView']);
+                _paq.push(['enableLinkTracking']);
+                (function() {
+                    var u="../matomo/index.html";
+                    _paq.push(['setTrackerUrl', u+'matomo.php']);
+                    _paq.push(['setSiteId', '4']);
+                    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+                })();
+            </script>
+</head>
+<body class="homepage ">
+<div class="header">
+<div class="menubar">
+<a href="../index.html"><img class="headerlogo" src="../imgs/setposelogo.svg" alt="SetPose logo"></a>
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../poses/index.html">Poses</a></li>
+</ul>
+<div class="signinbutton">
+<div class="upgradebuttonwrap">
+<a href="../upgrade.html" class="homeupgradelink">
+<div class="upgradebutton">Try Pro for Free</div>
+</a>
+</div>
+<a href="#" class="signInModalButton">Sign in</a>
+<a href="../upgrade.html" class="homeupgradelink mobileupgrade">
+<div class="upgradebutton">Upgrade</div>
+</a>
+</div>
+</div>
+</div>
+<div class="controls">
+<div class="control">
+<label class="movebtn tilt3d"><input id="rot-z" type="checkbox" class="toggle" checked><span id="rot-z-name">Tilt</span></label>
+<div class="controlhint">
+<div class="controlhintinner"><b>Rotate on the Z axis</b>E.g. nodding head<i>Shortcut: Z</i></div>
+</div>
+</div>
+<div class="control">
+<label class="movebtn roll3d"><input id="rot-x" type="checkbox" class="toggle"><span id="rot-x-name">Roll</span></label>
+<div class="controlhint">
+<div class="controlhintinner"><b>Rotate on the X axis</b>E.g. tilting head<i>Shortcut: X</i></div>
+</div>
+</div>
+<div class="control">
+<label class="movebtn rotate3d"><input id="rot-y" type="checkbox" class="toggle"><span id="rot-y-name">Rotate</span></label>
+<div class="controlhint">
+<div class="controlhintinner"><b>Rotate on the Y axis</b>E.g. turning head<i>Shortcut: Y</i></div>
+</div>
+</div>
+<div class="control">
+<label class="movebtn move3d"><input id="mov-y" type="checkbox" class="toggle"><span>Move</span></label>
+<div class="controlhint">
+<div class="controlhintinner"><b>Move along the Y axis</b><i>Shortcut: M</i></div>
+</div>
+</div>
+<div class="control">
+<label class="movebtn undo"><input id="undo" type="button"><span>Undo</span></label>
+<div class="controlhint">
+<div class="controlhintinner"><b>Undo model change</b><i>Shortcut: Ctrl + Z</i></div>
+</div>
+</div>
+<div class="controlshint">
+<div class="controlshintinner">
+Use the controls to move the model's limbs in different directions
+<svg id="closecontrolshint" viewBox="0 0 24 24">
+<path fill="currentColor" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path>
+</svg>
+</div>
+</div>
+</div>
+<div class="hidepanelbtn">
+<svg style="width:24px;height:24px;transform:rotate(90deg);" viewBox="0 0 24 24">
+<path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+</svg>
+</div>
+<div class="panel">
+<div class="opensettingsbtn">
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+<path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+</svg>
+<div>Settings</div>
+</div>
+<div class="panelscroll">
+<h2 class="panelheader">Mannequin Settings</h2>
+<p>Create free 3D reference models. Pick a preset pose, combine them with different props, or create your own using the controls on the left.</p>
+<div>
+<div>
+<select class="modelswitch">
+<option value="basic">Basic model</option>
+<option value="anime">Anime model 1</option>
+<option value="anime-2">Anime model 2</option>
+<option disabled>Detailed model 1 - (SetPose Pro)</option>
+<option disabled>Detailed model 2 - (SetPose Pro)</option>
+</select>
+<button id="resetbtn">Reset</button>
+<button id="timedchallengebtn">Timed challenge</button>
+<span class="proupgradebuttons">
+<a href="../upgrade.html">
+<button>Save pose</button>
+<button>Random pose</button>
+<button>Screenshot</button>
+</a>
+</span>
+</div>
+</div>
+<details class="poselist">
+<summary><img style="width:20px;height:20px" src="../imgs/human-greeting.svg"><h3>Pose Presets</h3></summary>
+<details open>
+<summary>Basic</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="1"><span class="btntext">Reset</span></button><button class="setposebtn" data-poseid="2"><span class="btntext">Walking</span></button><button class="setposebtn" data-poseid="3"><span class="btntext">Standing 1</span></button><button class="setposebtn" data-poseid="4"><span class="btntext">Standing 2</span></button><button class="setposebtn" data-poseid="5"><span class="btntext">Falling backwards</span></button><button class="setposebtn" data-poseid="11"><span class="btntext">Crossed arms</span></button><button class="setposebtn" data-poseid="12"><span class="btntext">Kneeling</span></button><button class="setposebtn" data-poseid="13"><span class="btntext">Squatting</span></button><button class="setposebtn" data-poseid="14"><span class="btntext">Pushing</span></button><button class="setposebtn" data-poseid="15"><span class="btntext">Pulling</span></button> </div>
+</details>
+<details open>
+<summary>Sports</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="22"><span class="btntext">Jogging</span></button><button class="setposebtn" data-poseid="23"><span class="btntext">Running</span></button><button class="setposebtn" data-poseid="24"><span class="btntext">Sprinting</span></button><button class="setposebtn" data-poseid="25" data-prop="small ball (right hand)"><span class="btntext">Throwing</span></button><button class="setposebtn" data-poseid="26" data-prop="racket (right hand)"><span class="btntext">Tennis serve</span></button><button class="setposebtn" data-poseid="27" data-prop="racket (right hand)"><span class="btntext">Tennis forehand</span></button><button class="setposebtn" data-poseid="28" data-prop="racket (right hand)"><span class="btntext">Tennis backhand</span></button><button class="setposebtn" data-poseid="29"><span class="btntext">Ballet arabesque</span></button><button class="setposebtn" data-poseid="30"><span class="btntext">Ballet attitude</span></button><button class="setposebtn" data-poseid="31"><span class="btntext">Ballet croise</span></button><button class="setposebtn" data-poseid="32"><span class="btntext">Dive</span></button><button class="setposebtn" data-poseid="33"><span class="btntext">Hanging bar</span></button><button class="setposebtn" data-poseid="34"><span class="btntext">Pull up</span></button><button class="setposebtn" data-poseid="35"><span class="btntext">Ball kick</span></button><button class="setposebtn" data-poseid="37"><span class="btntext">Goalkeeping</span></button><button class="setposebtn" data-poseid="38" data-prop="basketball (left hand)"><span class="btntext">Basketball dribble</span></button><button class="setposebtn" data-poseid="39" data-prop="basketball (right hand)"><span class="btntext">Basketball jump shot</span></button><button class="setposebtn" data-poseid="40" data-prop="basketball (right hand)"><span class="btntext">Basketball dunk</span></button><button class="setposebtn" data-poseid="41"><span class="btntext">Volleyball jump serve</span></button><button class="setposebtn" data-poseid="43" data-prop="bow (left hand)"><span class="btntext">Kneeled archery</span></button><button class="setposebtn" data-poseid="44" data-prop="bow (left hand)"><span class="btntext">Mid-air archery</span></button><button class="setposebtn" data-poseid="45" data-prop="bike"><span class="btntext">Cycling</span></button><button class="setposebtn" data-poseid="46"><span class="btntext">Handstand</span></button><button class="setposebtn" data-poseid="47"><span class="btntext">Elbow stand</span></button><button class="setposebtn" data-poseid="48"><span class="btntext">Downward dog</span></button><button class="setposebtn" data-poseid="49"><span class="btntext">Upward dog</span></button><button class="setposebtn" data-poseid="50"><span class="btntext">Split</span></button><button class="setposebtn" data-poseid="51"><span class="btntext">Cartwheel</span></button><button class="setposebtn" data-poseid="52" data-prop="barbell"><span class="btntext">Deadlift</span></button><button class="setposebtn" data-poseid="53" data-prop="barbell"><span class="btntext">Snatch</span></button><button class="setposebtn" data-poseid="54"><span class="btntext">Surfing</span></button><button class="setposebtn" data-poseid="55" data-prop="stick (right hand)"><span class="btntext">Golf</span></button> </div>
+</details>
+<details open>
+<summary>Combat</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="57" data-prop="rifle (right hand)"><span class="btntext">Kneeled shooting</span></button><button class="setposebtn" data-poseid="58" data-prop="rifle (right hand)"><span class="btntext">Prone shooting</span></button><button class="setposebtn" data-poseid="59" data-prop="rifle (right hand)"><span class="btntext">Hip shooting</span></button><button class="setposebtn" data-poseid="60"><span class="btntext">Salute</span></button><button class="setposebtn" data-poseid="61"><span class="btntext">Right hook</span></button><button class="setposebtn" data-poseid="62"><span class="btntext">Uppercut</span></button><button class="setposebtn" data-poseid="63"><span class="btntext">Left jab</span></button><button class="setposebtn" data-poseid="64"><span class="btntext">High kick</span></button><button class="setposebtn" data-poseid="65"><span class="btntext">Karate kick</span></button><button class="setposebtn" data-poseid="66" data-prop="sword (right hand)"><span class="btntext">Sword lunge</span></button><button class="setposebtn" data-poseid="67" data-prop="sword (right hand)"><span class="btntext">Sword high blow</span></button><button class="setposebtn" data-poseid="68" data-prop="sword (right hand)"><span class="btntext">Sword diagonal blow</span></button><button class="setposebtn" data-poseid="69" data-prop="sword (right hand)"><span class="btntext">Sword side blow</span></button><button class="setposebtn" data-poseid="70" data-prop="sword (right hand)"><span class="btntext">Sword block</span></button> </div>
+</details>
+<details open>
+<summary>Working</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="84" data-prop="stick (right hand)"><span class="btntext">Digging</span></button><button class="setposebtn" data-poseid="85"><span class="btntext">Scrubbing floor</span></button><button class="setposebtn" data-poseid="86"><span class="btntext">Carrying 1</span></button> </div>
+</details>
+<details open>
+<summary>Film & TV</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="76"><span class="btntext">Matrix</span></button><button class="setposebtn" data-poseid="77"><span class="btntext">Titanic</span></button><button class="setposebtn" data-poseid="79"><span class="btntext">Harry Potter</span></button><button class="setposebtn" data-poseid="80" data-prop="stick (left hand)"><span class="btntext">Star Wars</span></button><button class="setposebtn" data-poseid="81"><span class="btntext">Spiderman</span></button><button class="setposebtn" data-poseid="82"><span class="btntext">Superman</span></button><button class="setposebtn" data-poseid="83"><span class="btntext">Wonder Woman</span></button> </div>
+</details>
+<details open>
+<summary>Emotions</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="6"><span class="btntext">Sad</span></button><button class="setposebtn" data-poseid="7"><span class="btntext">Disgusted</span></button><button class="setposebtn" data-poseid="8"><span class="btntext">Happy</span></button><button class="setposebtn" data-poseid="9"><span class="btntext">Excited</span></button><button class="setposebtn" data-poseid="10"><span class="btntext">Surprised</span></button> </div>
+</details>
+<details open>
+<summary>Sitting</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="16"><span class="btntext">Sitting 1</span></button><button class="setposebtn" data-poseid="17"><span class="btntext">Sitting 2</span></button><button class="setposebtn" data-poseid="18"><span class="btntext">Sitting 3</span></button><button class="setposebtn" data-poseid="19"><span class="btntext">Sitting 4</span></button><button class="setposebtn" data-poseid="20" data-prop="chair"><span class="btntext">Sitting 5</span></button><button class="setposebtn" data-poseid="21" data-prop="chair"><span class="btntext">Sitting 6</span></button> </div>
+</details>
+<details open>
+<summary>Laying down</summary>
+<div class="flexbtnwrap">
+<button class="setposebtn" data-poseid="71"><span class="btntext">Lying 1</span></button><button class="setposebtn" data-poseid="72"><span class="btntext">Lying 2</span></button><button class="setposebtn" data-poseid="73"><span class="btntext">Sleeping</span></button><button class="setposebtn" data-poseid="74"><span class="btntext">Sleeping 2</span></button><button class="setposebtn" data-poseid="75"><span class="btntext">Sleeping 3</span></button> </div>
+</details>
+</details>
+<details class="proplist">
+<summary><img style="width:20px;height:20px" src="../imgs/basketball.svg"><h3>Props</h3></summary>
+<table style="width: 100%;">
+<tr>
+<th></th>
+<th>Left hand</th>
+<th>Right hand</th>
+</tr>
+<tr>
+<td class="tablelabel">Stick</td>
+<td class="left"><input id="toggle-stick-l" type="checkbox" class="toggle checkbox"><label for="toggle-stick-l"><span></span></label></td>
+<td><input id="toggle-stick-r" type="checkbox" class="toggle checkbox"><label for="toggle-stick-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Basketball</td>
+<td><input id="toggle-ball-l" type="checkbox" class="toggle checkbox"><label for="toggle-ball-l"><span></span></label></td>
+<td><input id="toggle-ball-r" type="checkbox" class="toggle checkbox"><label for="toggle-ball-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Small Ball</td>
+<td><input id="toggle-s-ball-l" type="checkbox" class="toggle checkbox"><label for="toggle-s-ball-l"><span></span></label></td>
+<td><input id="toggle-s-ball-r" type="checkbox" class="toggle checkbox"><label for="toggle-s-ball-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Racket</td>
+<td><input id="toggle-racket-l" type="checkbox" class="toggle checkbox"><label for="toggle-racket-l"><span></span></label></td>
+<td><input id="toggle-racket-r" type="checkbox" class="toggle checkbox"><label for="toggle-racket-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Bat</td>
+<td><input id="toggle-bat-l" type="checkbox" class="toggle checkbox"><label for="toggle-bat-l"><span></span></label></td>
+<td><input id="toggle-bat-r" type="checkbox" class="toggle checkbox"><label for="toggle-bat-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Sword</td>
+<td><input id="toggle-sword-l" type="checkbox" class="toggle checkbox"><label for="toggle-sword-l"><span></span></label></td>
+<td><input id="toggle-sword-r" type="checkbox" class="toggle checkbox"><label for="toggle-sword-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Pan</td>
+<td><input id="toggle-pan-l" type="checkbox" class="toggle checkbox"><label for="toggle-pan-l"><span></span></label></td>
+<td><input id="toggle-pan-r" type="checkbox" class="toggle checkbox"><label for="toggle-pan-r"><span></span></label></td>
+</tr>
+<tr style="display: none;">
+<td class="tablelabel">Cup</td>
+<td><input id="toggle-cup-l" type="checkbox" class="toggle checkbox"><label for="toggle-cup-l"><span></span></label></td>
+<td><input id="toggle-cup-r" type="checkbox" class="toggle checkbox"><label for="toggle-cup-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Knife</td>
+<td><input id="toggle-knife-l" type="checkbox" class="toggle checkbox"><label for="toggle-knife-l"><span></span></label></td>
+<td><input id="toggle-knife-r" type="checkbox" class="toggle checkbox"><label for="toggle-knife-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Bow</td>
+<td><input id="toggle-bow-l" type="checkbox" class="toggle checkbox"><label for="toggle-bow-l"><span></span></label></td>
+<td><input id="toggle-bow-r" type="checkbox" class="toggle checkbox"><label for="toggle-bow-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Rifle</td>
+<td><input id="toggle-rifle-l" type="checkbox" class="toggle checkbox"><label for="toggle-rifle-l"><span></span></label></td>
+<td><input id="toggle-rifle-r" type="checkbox" class="toggle checkbox"><label for="toggle-rifle-r"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Barbell</td><td></td>
+<td><input id="toggle-barbell-r" type="checkbox" class="toggle checkbox"><label for="toggle-barbell-r"><span></span></label></td>
+</tr>
+</table>
+<table style="width: 100%;">
+<tr>
+<th></th>
+<th>Ground</th>
+</tr>
+<tr>
+<td class="tablelabel">Chair</td>
+<td class="left"><input id="toggle-chair" type="checkbox" class="toggle checkbox"><label for="toggle-chair"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Pole</td>
+<td class="left"><input id="toggle-pole" type="checkbox" class="toggle checkbox"><label for="toggle-pole"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Bar</td>
+<td class="left"><input id="toggle-bar" type="checkbox" class="toggle checkbox"><label for="toggle-bar"><span></span></label></td>
+</tr>
+<tr>
+<td class="tablelabel">Bike</td>
+<td class="left"><input id="toggle-bike" type="checkbox" class="toggle checkbox"><label for="toggle-bike"><span></span></label></td>
+</tr>
+</table>
+</details>
+<details>
+<summary><img style="width:20px;height:20px" src="../imgs/human-handsdown.svg"><h3>Model Settings</h3></summary>
+<div style="display: none;">
+<input id="inverse-kinematics" type="checkbox" class="toggle checkbox">
+<label for="inverse-kinematics"><span>Inverse kinematics</span></label><br>
+</div>
+<input id="modelcolor" type="color" value="#FFFFFF">
+<label for="modelcolor"><span>Model color</span></label><br><br>
+<input id="biological-constraints" type="checkbox" class="toggle checkbox" checked>
+<label for="biological-constraints"><span>Biological constraints</span></label><br>
+<br>
+<label for="headsizerange">Head size</label><br>
+<input id="headsizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="torsowidthrange">Torso width</label><br>
+<input id="torsowidthrange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="torsoheightrange">Torso height</label><br>
+<input id="torsoheightrange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="torsosizerange">Torso thickness</label><br>
+<input id="torsosizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="armlsizerange">Left arm size</label><br>
+<input id="armlsizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="armrsizerange">Right arm size</label><br>
+<input id="armrsizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="leglsizerange">Left leg size</label><br>
+<input id="leglsizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+<label for="legrsizerange">Right leg size</label>
+<input id="legrsizerange" type="range" min="0.5" max="4" step="0.05" value="1"><input class="sizerangenr" type="text" value="1" disabled>
+</details>
+<details>
+<summary><img style="width:20px;height:20px" src="../imgs/video.svg"><h3>Camera & Environment</h3></summary>
+<input id="toggle-floor" type="checkbox" class="toggle checkbox" checked>
+<label for="toggle-floor"><span>Toggle floor</span></label><br>
+<input id="toggle-shadow" type="checkbox" class="toggle checkbox" checked>
+<label for="toggle-shadow"><span>Toggle shadow</span></label><br><br>
+<input id="backcolor" type="color" value="#F7F7F7">
+<label for="backcolor"><span>Background color</span></label><br>
+<input id="floorcolor" type="color" value="#d9d9d9">
+<label for="floorcolor"><span>Floor color</span></label><br><br>
+<label for="resrange">Resolution</label><br>
+<input id="resrange" type="range" min="0.25" max="3" step="0.25" value="0"><input class="sizerangenr" type="text" value="1x" disabled>
+<label for="fovrange">Field of view</label><br>
+<input id="fovrange" type="range" min="10" max="120" step="1" value="30"><input class="sizerangenr" type="text" value="30" disabled>
+<label for="lightrange">Light intensity</label><br>
+<input id="lightrange" type="range" min="0" max="2" step="0.1" value="0.5"><input class="sizerangenr" type="text" value="0.5" disabled>
+</details>
+</div>
+<a href="../upgrade.html" class="upgrademenubanner">
+<div class="setposeproav">
+<div class="fcprologo">
+<img class="headerlogo" src="../imgs/setposeprologo2.svg">
+</div>
+<ul>
+<li><svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve"><circle id="XMLID_2819_" class="st0" cx="9.7" cy="10.2" r="8.8" fill="#ff8686"></circle><polygon id="XMLID_2820_" class="st1" points="7.3,16.6 0.2,9.5 3,6.7 7.3,11 17.2,1.1 20,3.9 "></polygon></svg> Sync your work across all your devices</li>
+<li><svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve"><circle id="XMLID_2819_" class="st0" cx="9.7" cy="10.2" r="8.8" fill="#ff8686"></circle><polygon id="XMLID_2820_" class="st1" points="7.3,16.6 0.2,9.5 3,6.7 7.3,11 17.2,1.1 20,3.9 "></polygon></svg> Access to all the 173 preset poses</li>
+<li><svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" style="enable-background:new 0 0 20 20;" xml:space="preserve"><circle id="XMLID_2819_" class="st0" cx="9.7" cy="10.2" r="8.8" fill="#ff8686"></circle><polygon id="XMLID_2820_" class="st1" points="7.3,16.6 0.2,9.5 3,6.7 7.3,11 17.2,1.1 20,3.9 "></polygon></svg> Save poses, dark mode, and more...</li>
+</ul>
+<div class="fctrialbtn colorbgbutton ">Try Pro for Free <svg style="width:18px;height:18px" viewBox="0 0 24 24"><path fill="#000000" d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path></svg></div>
+</div>
+</a>
+</div>
+<div class="syncdetailscontainer">
+</div>
+<div class="addposeprompt poseprompt hidden">
+<button class="closebtn">✕</button>
+<div class="addposeimgwrap"></div>
+<div class="addposepromptform">
+<p>Submit the current pose to be added to the list of preset poses</p>
+<label for="addposepromptname">Pose name</label>
+<input id="addposepromptname" type="text" placeholder="Enter a pose name">
+<input type="hidden" id="addposeprompttext">
+<button id="submitposebtn" class="submitposebtn">Submit pose</button>
+</div>
+</div>
+<div class="poseprompt proupgradeprompt hidden">
+<button class="closebtn">✕</button>
+<h3>Upgrade to SetPose Pro</h3>
+<p>Access to all 173 presets, save your work, and more...</p>
+<a href="../upgrade.html">
+<button class="upgradebtn">Try Pro for Free</button>
+</a>
+</div>
+<div class="poseprompt timechallenge hidden">
+<button class="closebtn">✕</button>
+<div class="timechallengesetup">
+<div class="timechallengetext">
+<h3>Timed drawing challenge</h3>
+<p>Each round you'll be shown a random pose that you'll have to draw before the time runs out and the next pose is shown!</p>
+</div>
+<div class="timechallengeoptionwrap">
+<label for="timechallengetime">Time per round</label>
+<select id="timechallengetime">
+<option value="30">30 seconds</option>
+<option value="60" selected>1 minute</option>
+<option value="180">3 minutes</option>
+<option value="300">5 minutes</option>
+<option value="600">10 minutes</option>
+</select>
+</div><div class="timechallengeoptionwrap">
+<label for="timechallengecat">Types of poses</label>
+<select id="timechallengecat">
+<option value="all" selected>All poses</option>
+<option value="0">Basic poses</option>
+<option value="1">Sport poses</option>
+<option value="2">Combat poses</option>
+<option value="3">Film & TV poses</option>
+<option value="4">Emotion poses</option>
+<option value="5">Sitting poses</option>
+<option value="6">Laying poses</option>
+<option value="7">Working poses</option>
+</select>
+</div><div class="timechallengeoptionwrap">
+<label for="timechallengerounds">Rounds</label>
+<select id="timechallengerounds">
+<option value="3">3</option>
+<option value="6" selected>6</option>
+<option value="9">9</option>
+<option value="12">12</option>
+</select>
+</div>
+<button id="starttimechallengebtn">Start challenge</button>
+</div>
+<div class="timechallengeinner hidden">
+<div class="timechallengeexpandbtn">
+<svg style="width:30px;height:30px" viewBox="0 0 24 24">
+<path fill="currentColor" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+</svg>
+</div>
+<div class="timechallengetext">
+<h3>Timed drawing challenge</h3>
+<p id="currenttimechallengeround">1/6 — Walking</p>
+</div>
+<div class="timechallengeclock">
+<div class="timechallengeclockinner">
+<div class="base-timer">
+<svg class="base-timer__svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<g class="base-timer__circle">
+<circle class="base-timer__path-elapsed" cx="50" cy="50" r="45"></circle>
+<path id="base-timer-path-remaining" stroke-dasharray="283" class="base-timer__path-remaining #fc8686" d="M 50, 50 m -45, 0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0"></path>
+</g>
+</svg>
+<span id="base-timer-label" class="base-timer__label">43</span>
+</div>
+</div>
+</div>
+</div>
+<div class="timechallengeextended hidden">
+<ul>
+</ul>
+</div>
+</div>
+<div class="canvascontainer"></div>
+<div class="infopointer">
+<div>About SetPose.com</div>
+<svg style="width:24px;height:24p;transform: rotate(180deg);" viewBox="0 0 24 24">
+<path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+</svg>
+</div>
+<div class="about">
+<div class="aboutsection">
+<h1 class="header-h1">Free Interactive 3D Model Reference for Drawing Figures, Dynamic Poses, and More<br>SetPose — Online Drawing Mannequin</h1>
+<p>As an artist, you probably have drawn the human body several times and realized how difficult it is to do it all from memory. Especially when you are you are just a beginner or you're just getting into drawing more complex figures like dynamic poses where the body is in movement. When you're drawing the human body, you have to take a lot of different factors into account for the result to end up looking as realistic as possible. Factors such as bone structure, muscles, and other anatomic details are very important but difficult to get right. This is why many artists use references when drawing the human body. These references can be in the form of an image or video but the problem with that is that these aren't adjustable. When you want to draw a specific pose, it can often be hard to find the right reference pictures for example. This is where an adjustable drawing model comes in handy. These adjustable models are also often called drawing mannequins, or drawing figures and are available at most art stores. Unfortunately, though, these wooden mannequins can be quite pricey for beginning artists and are limited in their customizability and adjustability. Luckily, you can now get access to the same drawing mannequins but online and completely for free! Online drawing models like the one above are the perfect tool for every artist looking to practice drawing human figures or dynamic poses. Simply adjust the body parts by dragging them and rotate or move them along another axis by pressing the other movement selectors on the left side of your screen. If you don't want to take the time to create a pose, you can also use one of the preset poses on the right side of your screen or go to the <a href="../poses/index.html">pose library</a>. In the same menu, you can even select one of the many props for the model to interact with, or try out different models like the <a href="../anime.html">anime model</a>, making your poses even more interesting! </p>
+<img class="lazy" data-src="https://setpose.com/imgs/pose1.png" alt="Reference pose model in a ballet position">
+<p><i>Ballet arabesque pose preset</i></p>
+<p>Using the mannequin, you should start with trying out some simple poses to get used to adjusting the body parts and using all the different movement controls on the left.</p>
+<img class="lazy" data-src="https://setpose.com/imgs/sittingpose.png" alt="Reference pose model sitting on a red chair">
+<p><i>Chair prop and sitting 2 pose preset</i></p>
+<p>After you've gotten used to the controls, you can try out adding some basic props to the scene. You can select a prop like the chair, for example, and use it to create different sitting poses.</p>
+<img class="lazy" data-src="https://setpose.com/imgs/mannequin4.png" alt="Reference pose model riding a red bike">
+<p><i>Bike prop and cycling pose preset</i></p>
+<p>You can also use one of the more interactive props like the barbell or the bike to create more dynamic poses. </p>
+<img class="lazy" data-src="https://setpose.com/imgs/mannequin1.png" alt="Reference pose model kneeling and holding a red bow">
+<p><i>Bow prop and archery preset</i></p>
+<p>The prop menu also has a ton of different hand props to choose from. You can put them in the model's left or right and you can even combine them to have the model holding something in each hand. If you want to go even further, you can even combine a ground prop like the bike with multiple hand props!</p>
+</p>
+<p class="oscredit">
+SetPose.com uses <a href="../../github.com/mrdoob/three.html" target="_blank" rel="noopener noreferrer">Three.js</a> and <a href="../../github.com/boytchev/mannequin.html" target="_blank" rel="noopener noreferrer">Mannequin.js</a><br>
+<a href="https://sketchfab.com/3d-models/anime-girl-model-t-pose-base-free-5a1ef64055c748fd94447adbfa5a88a2" target="_blank" rel="noopener noreferrer">Anime model</a> by <a href="https://sketchfab.com/ALexzart" target="_blank" rel="noopener noreferrer">ALexZ art</a>
+</p>
+</div>
+</div>
+<footer class="footer">
+<div class="footerinner">
+<div class="footerblock">
+<img class="lazy" data-src="https://setpose.com/imgs/setposelogo.svg" alt="setpose logo small">
+</div>
+<div class="footerblock">
+<ul>
+<li>Details</li>
+<li><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="footerblock">
+<ul>
+<li>Links</li>
+<li><a href="../feedback.html">Feedback</a></li>
+<li><a href="https://play.google.com/store/apps/details?id=com.setpose.twa" target="_blank" rel="noopener">SetPose Android App</a></li>
+<li><a href="https://drawingideas.co/" target="_blank" rel="noopener">Drawing Ideas</a></li>
+<li><a href="https://fakeclients.com/" target="_blank" rel="noopener">Design Brief Generator</a></li>
+<li><a href="https://opmaak.co/" target="_blank" rel="noopener">Opmaak</a></li>
+<li><a href="https://alldesignjobs.com/" target="_blank" rel="noopener">Junior Design Jobs</a></li>
+<li><a href="https://standuplist.com/" target="_blank" rel="noopener">Standup List</a></li>
+</ul>
+</div>
+<div class="footerblock">
+<ul>
+<li>Social</li>
+<li><a href="https://twitter.com/setpose" target="_blank" rel="noopener">Twitter</a></li>
+<li><a href="https://instagram.com/setpose" target="_blank" rel="noopener">Instagram</a></li>
+<li><a href="https://pinterest.com/setpose" target="_blank" rel="noopener">Pinterest</a></li>
+<li><a href="https://reddit.com/r/setpose" target="_blank" rel="noopener">Reddit</a></li>
+</ul>
+</div>
+<div class="footerbottom">
+<div class="copyright">© 2022 — <a href="../index.html">SetPose™</a></div>
+<div class="legal"><a href="../terms.html" target="_blank">Terms</a> • <a href="../privacy.html" target="_blank">Privacy</a></div>
+</div>
+</div>
+</footer>
+<div class="popUpBack " style="display: none;"></div>
+<div class="SignUpInForm " style="display:none;">
+<span class="SignUpInFormClose topRightIcon"></span>
+<form class="signupform" onsubmit="return false">
+<h2>Create an account</h2>
+<label for="fullname">Name</label>
+<input type="text" name="fullname" id="signupname" required>
+<label for="email">Email</label>
+<input type="email" name="email" id="signupemail" required>
+<label for="password">Password</label>
+<input type="Password" name="password" id="signuppassword" minlength="8" required>
+<input type="submit" name="submit" value="Create Account" class="btn-primary" id="signupbutton">
+<div class="terms">By signing up, you agree to the <a href="../terms.html" target="_blank">Terms and conditions</a> and the <a href="../privacy.html" target="_blank">Privacy policy</a></div>
+</form>
+<form class="signinform" onsubmit="return false">
+<h2>Sign In</h2>
+<label for="email">Email</label>
+<input type="email" name="email" id="signinemail" required>
+<label for="password">Password</label>
+<input type="Password" name="password" id="signinpassword" required>
+<input type="checkbox" id="rememberme" class="checkbox" name="rememberme" value="yes">
+<label for="rememberme" style="display: inline-block;">Stay signed in</label>
+<input type="submit" name="submit" value="Sign in" class="btn-primary" id="signinbutton">
+<div class="terms">Forgot your password? <a href="../forgotpassword.html" target="_blank">Reset Password</a></div>
+</form>
+</div>
+<div class="notification"></div>
+<script>
+            var tester = detailedmodel = detailedmodel2 = animemodel = animemodel2 = bodybuilder = transparantmodel = drawingguide = false;
+
+                    </script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery.lazy.min.js"></script>
+<script src="../js/jquery.hotkeys.js"></script>
+<script src="../js/posture-editorae24.js?v=14"></script>
+<script src="../js/jsae24.js?v=14"></script>
+<script src="../js/feedbackjsae24.js?v=14"></script>
+<script src="../upup.min.js"></script>
+<script type="text/javascript">
+            var dmenabled = false;
+            function toggleDarkMode() {
+                if(dmenabled){
+                    $("body").removeClass("darkmode");
+                    dmenabled = false;
+                    document.cookie = "dmenabled=false; max-age=31536000; path=/;";
+                    scene.background = new THREE.Color("#F7F7F7");
+                    ground.material.color = new THREE.Color("#d9d9d9");
+                    renderer.render(scene, camera); 
+                } else {
+                    $("body").addClass("darkmode");
+                    dmenabled = true;
+                    document.cookie = "dmenabled=true; max-age=31536000; path=/;";
+                    scene.background = new THREE.Color("#202020");
+                    ground.material.color = new THREE.Color("#292929");
+                    renderer.render(scene, camera); 
+                }
+            }
+
+                            scene.background = new THREE.Color("#F7F7F7");
+                ground.material.color = new THREE.Color("#d9d9d9");
+                renderer.render(scene, camera); 
+            
+            $(document).ready(function() {
+                $('#darkmodetoggle').change(function() {
+                    toggleDarkMode();      
+                });
+            });
+
+            
+                function syncPose(posecode) {}
+
+                            $.ajax({
+                    url: 'https://setpose.com/scripts/getpose.php',
+                    type: 'POST',
+                    data: {
+                        poseid: "volleyball-jump-serve"
+                    }, success: function(msg) {
+                        if(msg) {
+                            setPostureStr(JSON.stringify(JSON.parse(msg)));
+                        } else {
+                            showNotification("Pose not found!");
+                        }
+                    }, error: function(xhr, ajaxOptions, thrownError) {
+                        showNotification(JSON.parse(xhr.responseText).errormessage);
+                    }
+                });
+            
+        </script>
+<script>
+            var offlineurl = "scripts/offline.html";
+            if(dmenabled) {
+                offlineurl = "scripts/offlinedarkmode.html";
+            }
+            UpUp.start({
+                'cache-version': 'v20',
+                'content-url': offlineurl,
+                'assets': [
+                    '/style/style.css',
+                    '../js/mannequin.js',
+                    '../js/posture-editor.js',
+                    '../js/js.js',
+                    '../js/feedbackjs.js',
+                    '../js/libs/three.min.js',
+                    '../js/libs/OBJLoader.js',
+                    '../js/libs/OBJExporter.js',
+                    '../js/libs/OrbitControls.min.js',
+                    '../js/jquery.min.js',
+                    '../js/jquery.lazy.min.js',
+                    '../js/jquery.hotkeys.js',
+                    '../imgs/tilticon.svg',
+                    '../imgs/rollicon.svg',
+                    '../imgs/rotateicon.svg',
+                    '../imgs/moveicon.svg',
+                    '../imgs/undoicon.svg',
+                    '../imgs/video.svg',
+                    '../imgs/human-handsdown.svg',
+                ],
+                'service-worker-url': '/upup.sw.min.js'
+            });
+        </script>
+<script type="text/javascript"> var sc_project=12646296;  var sc_invisible=1;  var sc_security="6e129115"; </script>
+<script type="text/javascript" src="../../www.statcounter.com/counter/counter.js" async></script>
+<noscript><img src="https://c.statcounter.com/12646296/0/6e129115/1/" referrerPolicy="no-referrer-when-downgrade"></noscript>
+</body>
+
+<!-- Mirrored from setpose.com/pose/volleyball-jump-serve by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Oct 2022 11:27:46 GMT -->
+</html>
