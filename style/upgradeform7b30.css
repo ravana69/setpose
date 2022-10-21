@@ -1,0 +1,563 @@
+.upgradecontainter a {
+    color: #4f4f4f;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.upgradecontainter .StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.upgradecontainter .StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.upgradecontainter .StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+body.upgradepage h2 {
+    text-align: center;
+    color: grey;
+}
+
+.upgradecontainter {
+    margin: 0px auto 0px auto;
+    max-width: 1000px;
+    background-color: #fff;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.06);
+    font-size: 1rem;
+    color: #4f4f4f;
+    position: relative;
+}
+
+.upgradecontainter .upgradeleft {
+    float: left;
+    width: 49%;
+}
+
+.upgradecontainter .upgraderight {
+    width: 46%;
+    overflow: hidden;
+    position: relative;
+}
+
+.upgradecontainter ul {
+    padding-left: 30px;
+    line-height: 2.2;
+}
+
+.upgradecontainter ul li {
+    list-style-type: none;
+    position: relative;
+}
+
+.upgradecontainter ul li:before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    height: 18px;
+    width: 18px;
+    background-color: #ff8686;
+    display: inline-block;
+    border-radius: 100px;
+}
+
+.upgradecontainter div#card-element {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #cbcac9;
+    margin: 20px 0px 20px 0px;
+}
+
+.upgradecontainter .form-row label {
+    display: none;
+}
+
+.upgradecontainter button {
+    margin: 0px auto 10px auto;
+    font-size: 1rem;
+    border: none;
+    background-color: #ff8686;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    font-weight: 500;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.upgradecontainter button:after {
+    display: none;
+}
+.upgradeoptions input {
+    position: absolute;
+    margin: 30px 0px 0px 10px;
+    z-index: 1;
+}
+
+.upgradeoptions > div {
+    position: relative;
+    padding: 15px 10px 15px 40px;
+    margin: 0px 0px 0px 25px;
+    left: -25px;
+    border-radius: 14px;
+    width: calc(100% - 54px);
+    transition: opacity 0.5s;
+    border: 2px solid #fff;
+}
+
+.upgradeoptions > div > label > span:nth-child(1) {
+    font-size: 1rem;
+    padding-right: 29px;
+}
+
+.upgradeoptions > div > label > span:nth-child(2) {
+    float: right;
+    font-size: 1rem;
+}
+
+.upgradeoptions > div > label > div {
+    font-size: 1rem;
+    padding: 5px 0px 0px 0px;
+    color: #959595;
+}
+
+.upgradeoptions > div > label > span:nth-child(2) > span:nth-child(1) {
+    font-size: 1rem;
+}
+.upgradeoptions > div > label > span:nth-child(2) > span:nth-child(1) strike {
+    color: #959595;
+}
+
+.upgradecontainter input[type=radio]:checked {
+    border: 6px solid #ff8686;
+}
+.upgradecontainter input[type=radio]:not(:checked)+div {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+.upgradecontainter input[type=radio]:checked + div {
+    border: 2px solid #cbcac9;
+}
+.upgradecontainter select.subscriptionselect {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #4f4f4f;
+    border-radius: 10px;
+    border: 2px solid #cbcac9;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+body.upgradepage .logo_container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+body.upgradepage .logo_container img {
+    max-width: 150px;
+    max-height: 40px;
+}
+body.upgradepage .container {
+    top: -30px;
+    transform: perspective(900px) rotate3d(5, 2, -2, 39deg);
+    width: 300px;
+    box-shadow: -62px 80px 130px 0px rgba(0, 0, 0, 0.05);
+    margin: 0;
+}
+body.upgradepage .briefcontent {
+    font-size: 1rem;
+}
+body.upgradepage .briefscont {
+    max-width: 620px;
+    margin: 0px auto;
+    position: relative;
+}
+body.upgradepage span.line {
+    height: 3px;
+    background-color: #ff8686;
+    position: absolute;
+    opacity: 0.7;
+}
+body.upgradepage span.line:after {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    text-align: right;
+}
+body.upgradepage span.line.one {
+    top: 70px;
+    right: 0px;
+    width: calc(100% - 190px);
+}
+body.upgradepage span.line.two {
+    top: 130px;
+    right: 0px;
+    width: calc(100% - 289px);
+}
+body.upgradepage span.line.three {
+    top: 260px;
+    right: 0px;
+    width: calc(100% - 340px);
+}
+body.upgradepage span.line.one:after {
+    content: "Personalized";
+}
+body.upgradepage span.line.two:after {
+    content: "AI-generated Businesses"
+}
+body.upgradepage span.line.three:after {
+    content: "Detailed Specifications";
+}
+body.upgradepage .show {
+    display: block !important;
+}
+.upgradecontainter button#joinbtn.loading {
+    background-color: lightgrey;
+    background-image: url(../imgs/loading-black.html);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 54px center;
+    padding-left: 60px;
+}
+.upgradecontainter  .usersignupnr svg {
+    vertical-align: bottom;
+}
+.upgradecontainter  .usersignupnr {
+    text-align: center;    
+    margin-top: 30px;
+}
+body.upgradepage h2.featureheader {
+    margin-top: 80px;
+}
+
+.upgradecontainter .upgradeinner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.upgradecontainter .upgraderightinner {
+    display: flex;
+    width: 200%;
+    position: relative;
+}
+
+.upgradecontainter  .upgraderight1 {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.upgradecontainter  .upgraderight2 {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    /*margin-top: 50px;*/
+}
+
+.upgradecontainter  .upgraderight1 input[type=text], .upgradecontainter  .upgraderight1 input[type=password] {
+    width: calc(100% - 25px);
+}
+
+.upgraderight1 form.signupform {
+    border: 2px solid #ededed;
+    padding: 20px 15px 0px 15px;
+    border-radius: 15px;
+}
+
+
+.writtenbriefpromo {
+    max-width: 507px;
+    height: 300px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: perspective(900px) rotate3d(5, 2, -2, 39deg);
+    width: 100%;
+    box-shadow: -62px 80px 130px 0px rgba(0, 0, 0, 0.15);
+    margin: 0;
+    top: -20px;
+    left: 50px;
+    display: inline-block;
+}
+
+.writtenbriefpromocont {
+    max-width: 620px;
+    margin: 40px auto 50px auto;
+    position: relative;
+}
+
+.upgradecontainter div#card-errors {
+    border-radius: 100px;
+    font-weight: 500;
+    color: #930000;
+    font-size: 12px;
+    text-align: center;
+    z-index: 3;
+    height: 0;
+    position: relative;
+    top: -18px;
+    margin: 0px auto 10px auto;
+    display: block;
+}
+
+.upgradecontainter .yellowstripe:after {
+    content: attr(data-content);
+    position: absolute;
+    color: #000;
+    bottom: 0px;
+    left: -10px;
+    width: 100%;
+    height: 50%;
+    padding: 0 10px;
+    background-color: #ff8686;
+    z-index: -1;
+}
+
+.upgradecontainter .yellowstripe {
+    display: inline-block;
+    z-index: 0;
+    position: relative;
+    margin: 0px 10px;
+}
+
+.UpgradePopupClose {
+    background-image: url(../imgs/close.svg);
+}
+
+.upgradedealcontainer {
+    max-width: 500px;
+    margin: 0px auto;
+    text-align: center;
+    border: 2px solid #cbcac9;
+    border-radius: 14px;
+    padding: 20px 20px;
+    position: relative;
+}
+
+.upgradedealcontainer:after {
+    position: absolute;
+    content: "Limited Time Offer!";
+    top: -15px;
+    left: 20px;
+    background-color: #fff;
+    padding: 0px 10px;
+    color: grey;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.upgradedealcontainer .upgradedealbtn {
+    margin: 0px auto 0px auto;
+    border: none;
+    background-color: #ff8686;
+    color: #2b2b2b;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.upgradedealcontainer a {
+    text-decoration: none;
+}
+
+.upgradedealheader {
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+
+svg#fcprologo {
+    width: 200px;
+    margin: 15px auto;
+    display: block;
+}
+
+.mobiletrialnotice {
+    display: none;
+}
+
+svg#fcprologo.fcprologobriefs {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    width: 250px;
+}
+
+.popupupgradecont.briefupgrade .inlineupgradepopup {
+    margin-top: 20px;
+}
+
+span.paypal-button-text.true {
+    display: none !important;
+}
+
+.paypalbuttonscontainer {
+    border: 2px solid #dddddd;
+    max-height: 55px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px 0 15px 0;
+}
+
+button#joinbtn.sepahidden {
+    display: none;
+}
+
+.paywithbtn {
+    text-align: center;
+    color: grey;
+    margin-bottom: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.paypalcontainer, 
+.obcard,
+.paywithcardbtn {
+    display: none;
+}
+
+.hiddenmsg {
+  display: none;
+}
+
+#payment-message {
+  color: rgb(105, 115, 134);
+  font-size: 1rem;
+  line-height: 20px;
+  padding-top: 12px;
+  text-align: center;
+}
+
+#payment-element {
+    padding: 2px;
+}
+
+/* spinner/processing state, errors */
+.spinner,
+.spinner:before,
+.spinner:after {
+  border-radius: 50%;
+}
+.spinner {
+  color: #ffffff;
+  font-size: 22px;
+  text-indent: -99999px;
+  margin: 0px auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.spinner:before,
+.spinner:after {
+  position: absolute;
+  content: "";
+}
+.spinner:before {
+  width: 10.4px;
+  height: 20.4px;
+  background: #5469d4;
+  border-radius: 20.4px 0 0 20.4px;
+  top: -0.2px;
+  left: -0.2px;
+  -webkit-transform-origin: 10.4px 10.2px;
+  transform-origin: 10.4px 10.2px;
+  -webkit-animation: loading 2s infinite ease 1.5s;
+  animation: loading 2s infinite ease 1.5s;
+}
+.spinner:after {
+  width: 10.4px;
+  height: 10.2px;
+  background: #5469d4;
+  border-radius: 0 10.2px 10.2px 0;
+  top: -0.1px;
+  left: 10.2px;
+  -webkit-transform-origin: 0px 10.2px;
+  transform-origin: 0px 10.2px;
+  -webkit-animation: loading 2s infinite ease;
+  animation: loading 2s infinite ease;
+}
+
+.upgradeimgs {
+    max-width: 100%;
+    width: 700px;
+    margin: 0px auto;
+}
+
+img.upgradeimg {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 6px 8px rgb(0 0 0 / 6%);
+    margin: 40px 0px 0px 0px;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+}
+
+.upgradeimg.upgradeimgdarkmode {
+    max-width: 500px;
+    height: 326px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: perspective(900px) rotate3d(5,2,-2,31deg);
+    width: 100%;
+    box-shadow: -62px 80px 130px 0 rgb(0 0 0 / 15%);
+    top: -20px;
+    left: 110px;
+    margin: 50px 0px 20px 0px;
+    display: inline-block;
+}
+
+img.upgradeimg.upgradeimgdetailed {
+    box-shadow: none;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+    .upgradecontainter .upgradeleft,
+    .upgradecontainter .upgraderight {
+        float: none;
+        width: 100%;
+    }
+    .upgradecontainter {
+        margin: 30px auto 0px auto;
+        padding: 40px 20px;
+    }
+    .upgradecontainter .upgraderight2 {
+        margin-top: 0px;
+    }
+    .mobiletrialnotice {
+        display: initial;
+    }
+    .desktoptrialnotice {
+        display: none;
+    }
+}
